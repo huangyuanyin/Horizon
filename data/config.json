@@ -4,7 +4,7 @@
     "provider": "azure",
     "model": "gpt-5.4-nano",
     "api_key_env": "AZURE_OPENAI_API_KEY",
-    "azure_endpoint": "https://ai-suoyi2025jan77276ai970669303000.cognitiveservices.azure.com",
+    "azure_endpoint_env": "AZURE_OPENAI_ENDPOINT",
     "api_version": "2024-12-01-preview",
     "temperature": 0.3,
     "max_tokens": 8192,
