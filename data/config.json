@@ -1,10 +1,11 @@
 {
   "version": "1.0",
   "ai": {
-    "provider": "openai",
-    "model": "deepseek-v4-flash",
-    "base_url": "https://api.deepseek.com",
-    "api_key_env": "OPENAI_API_KEY",
+    "provider": "azure",
+    "model": "gpt-5.4-nano",
+    "api_key_env": "AZURE_OPENAI_API_KEY",
+    "azure_endpoint": "https://ai-suoyi2025jan77276ai970669303000.cognitiveservices.azure.com",
+    "api_version": "2024-12-01-preview",
     "temperature": 0.3,
     "max_tokens": 8192,
     "languages": [
@@ -110,7 +111,7 @@
     }
   },
   "filtering": {
-    "ai_score_threshold": 8.0,
+    "ai_score_threshold": 6.0,
     "time_window_hours": 24
   },
   "webhook": {
